@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Failed To Sign Up!</title>
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        body,
+        .text-white {
+            background-color: #ED8282;
+            text-align: center;
+        }
+    </style>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <i class="fas fa-times-circle"></i> -->
+    <div class="container">
+        <div class="row align-items-md-stretch">
+            <div class="col">
+                <div class="h-100 p-5 text-white rounded-3">
+                    <h1><i class="fa fa-times-circle " style="font-size:130px; color:#8D2828"></i></h1>
+                    <h1>Failed to Sign You !</h1>
+                    <form action="/failure" method="post">
+                        <button class="btn btn-warning btn-lg" type="submit">Try Again</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
